@@ -24,52 +24,41 @@
         <li><strong>Address: </strong>{{ .Site.Data.contact.address }}</li>
         {{ end }}
       </ul>
-      <!-- <h4 class="mt-4">Business Hours</h4> -->
-      <!-- <table class="table table-sm opening-hours-table">
-        <tr>
-          <td class="day font-weight-bold">Monday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Tuesday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Wednesday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Thursday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Friday</td>
-          <td class="opens">8:30am</td>
-          <td>-</td>
-          <td class="closes">5:00pm</td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Saturday</td>
-          <td class="opens">Closed</td>
-          <td></td>
-          <td class="closes"></td>
-        </tr>
-        <tr>
-          <td class="day font-weight-bold">Sunday</td>
-          <td class="opens">Closed</td>
-          <td> </td>
-          <td class="closes"></td>
-        </tr>
-      </table> -->
     </div>
   </div>
+</div>
+
+<div class="container" style="padding-top: 40px; padding-bottom: 20px;">
+  <strong>Or, fill out the form below:</strong>
+</div>
+
+<div class="container">
+  <form action="{{ .Site.Data.contact.action }}" method="POST">
+    <div class="row">
+      <div class="col-12 col-lg-6 col-md-6">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" name="Name" class="form-control" placeholder="Name">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 col-md-6">
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="Email" class="form-control" placeholder="Email">
+        </div>
+      </div>
+  
+      <div class="col-12">
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Message" name="Message" rows="5" class="form-control"></textarea>
+        </div>
+      </div>
+  
+      <div class="col-12">
+          <button type="submit" class="button">Submit</button>
+      </div>
+    </div>
+  </form>
 </div>
 {{ end }}

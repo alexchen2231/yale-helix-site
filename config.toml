@@ -12,15 +12,17 @@ theme = "hugo-hero-theme"
     meta_og_title = "Yale Helix Site"
     meta_og_type = "website"
     meta_og_url = "https://yalehelix.com"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    meta_og_image = ""
     meta_og_description = "Website for Yale Helix, an undergraduate organization at Yale University."
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@cheny2231"
-    meta_twitter_creator = "@cheny2231"
+    meta_twitter_card = ""
+    meta_twitter_site = ""
+    meta_twitter_creator = ""
+
+
 
 [[menu.main]]
-	name = "Services"
-	url = "/services/"
+    name = "About"
+    url = "/about/"
     weight = 1
 
 [[menu.main]]
@@ -29,14 +31,9 @@ theme = "hugo-hero-theme"
     weight = 2
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
-
-[[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 3
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
