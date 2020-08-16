@@ -4,6 +4,9 @@ title = "Yale Helix Site"
 themesDir = "themes"
 theme = "hugo-hero-theme"
 
+linkedin = "https://www.linkedin.com/company/yhelix-group"
+medium = "https://medium.com/yalehelix"
+
 [params]
   google_analytics_id=""
 

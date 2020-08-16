@@ -1,7 +1,7 @@
 ---
 title: 'Work'
-date: 2018-02-10T11:52:18+07:00
+date: 2020-08-16
 heroHeading: 'Work'
-heroSubHeading: 'Some of our previous teams and projects (page is in progress)'
+heroSubHeading: 'Some of our previous teams and projects'
 heroBackground: '/images/theteam.jpg'
 ---

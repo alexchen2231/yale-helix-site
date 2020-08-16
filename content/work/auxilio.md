@@ -2,20 +2,14 @@
 title: 'Auxilio'
 date: 2018-11-18T12:33:46+10:00
 draft: false
-weight: 1
+weight: 2
 heroHeading: 'Auxilio'
 heroSubHeading: 'Selecting the appropriate treatment for gastrointestinal bleeding'
-heroBackground: 'work/work1.jpg'
-thumbnail: 'work/work1-thumbnail.jpg'
-images: ['https://source.unsplash.com/random/400x600/?nature', 
-'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
+heroBackground: 'work/tech-circle.jpg'
+thumbnail: 'work/auxilio-thumbnail.jpg'
+images: ['work/auxilio-website.png']
 ---
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+AuxilioMD is an integration platform that helps researchers set up a clinical validation study by providing the front and backend software to pilot their models in a hospital. We are the last-mile solution for clinical researchers who want to validate, implement, and eventually sell their machine learning (ML) models for healthcare diagnostics.
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
+Read more at [AuxilioMD's website](https://auxiliomd.com/)
