@@ -3,7 +3,7 @@ title: 'EnlighteN'
 date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 1
-heroHeading: 'Modern Hospital Design'
+heroHeading: 'EnlighteN'
 heroSubHeading: 'A naloxone sensory injector'
 heroBackground: 'work/EnlighteN Team Photo.jpg'
 thumbnail: 'work/EnlighteN Team Photo.jpg'
