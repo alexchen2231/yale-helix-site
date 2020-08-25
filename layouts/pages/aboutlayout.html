@@ -1,0 +1,45 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-pages-aboutlayout{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+{{ partial "hero-image-fullscreen.html" (dict "background" .Params.heroBackground "heading" .Params.heroHeading "subheading" .Params.heroSubHeading "content" .)}}
+
+<div id="home" class="container pt-8 pb-8 pt-md-10 pb-md-10">
+  <div class="row justify-content-center">
+    {{ range .Site.Data.features }}
+    <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="feature">
+        {{ if .image }}<div class="feature-image"><img alt="{{ .title }} logo" src="{{ $.Site.BaseURL }}{{ .image }}" /></div> {{ end }}
+        <h2 class="feature-title">{{ .title }}</h2>
+        <div class="feature-content">{{ .description }}</div>
+      </div>
+    </div>
+    {{end}}
+  </div>
+</div>
+
+<div class="bg-primary">
+  <div id="home" class="container pt-8 pb-8 pt-md-10 pb-md-10" >
+    <div class="text-center text-white" style="padding-bottom: 20px;">
+      <h1>Managing Directors</h1>
+    </div>
+    <div class="row justify-content-center">
+      {{ range .Site.Data.board }}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature" style="border: none; background: none; color: white">
+          {{ if .image }}<div style="padding-bottom: 20px; width: 75%;"><img alt="{{ .title }} logo" src="{{ $.Site.BaseURL }}{{ .image }}" /></div> {{ end }}
+          <h2 class="feature-title">{{ .name }}</h2>
+          <div class="feature-content" style="font-style: italic;">{{ .description }}</div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>  
+</div>
+
+
+
+{{ .Content }}
+
+{{ end }}
